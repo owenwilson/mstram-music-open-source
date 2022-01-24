@@ -1,0 +1,18 @@
+version: "3"
+            
+services:
+  mstream:
+    image: linuxserver/mstream
+    container_name: mstream
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - USER=userName
+      - PASSWORD=yourPassword
+      - USE_JSON=false
+      - TZ=America/La_Paz
+    volumes:
+      - /path/folder/music:/music
+    ports:
+      - 5000:3000
+    restart: unless-stopped
