@@ -40,3 +40,7 @@ docker-compose up -d
 ## Reference
 
 - [mstream.io](https://mstream.io/)
+
+## Donations
+
+- [voluntary donations! devfrustrado](https://www.paypal.com/paypalme/devfrustrado)
